@@ -14,40 +14,40 @@ Note: The game art is not my own.
 
 * Three types of enemies:
 
-		* Brute Boars
+	* Brute Boars
 Chase the player and attack with physical hits. After being attacked, they become invulnerable for a short time or until receiving a certain number of hits. If the player attacks them while invulnerable, they become enraged, increasing their speed and damage. The player's wand melee attack can immediately dispel their invulnerability.
 
-		* Fire Elks
-These enemies also pursue the player but keep their distance, launching fire projectiles using a particle system with collision detection. While attacking, they rotate to follow the player’s movements. Elks also possess invulnerability, but it does not affect their attack speed or damage.
+	* Fire Elks
+These enemies also pursue the player but keep their distance, launching fire projectiles using a particle system with collision detection. While attacking, they rotate to follow the playerâ€™s movements. Elks also possess invulnerability, but it does not affect their attack speed or damage.
 
-		* Electric Moles
+	* Electric Moles
 Hidden underground, these enemies emerge when the player is near and start throwing electric balls. If the player moves away, they hide again. Their invulnerability mechanics are similar to the Elks, though they are visually less polished.
 
 * Unique invulnerability mechanics for each enemy type.
 
 *Real-time physics-based traps and interactive environments:
 		
-		* Spike traps that activate when the player steps on them.
+   * Spike traps that activate when the player steps on them.
 
-		* Saws and crushers that move across floors and walls.
+   * Saws and crushers that move across floors and walls.
 
-		* Flying hammers and axes spinning around platforms.
+   * Flying hammers and axes spinning around platforms.
 
-		* Spiked walls that chase the player.
+   * Spiked walls that chase the player.
 
-		* Arrow traps embedded in walls that shoot when triggered.
+   * Arrow traps embedded in walls that shoot when triggered.
 
 * Short-range teleportation (Blink) for evasive maneuvers.
 
 * Basic inventory system for potions and power-ups:
 
-	  *Health Potion: Restores health.
+  *Health Potion: Restores health.
 
-	  *Defense Potion: Increases defense for a limited time.
+  *Defense Potion: Increases defense for a limited time.
 
-      *Attack Potion: Boosts attack damage for a short duration.
+  *Attack Potion: Boosts attack damage for a short duration.
 
-      *Greater Health Potion: Heals the player and increases max health temporarily.
+  *Greater Health Potion: Heals the player and increases max health temporarily.
 
 ## Technologies Used
 
