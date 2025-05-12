@@ -41,13 +41,13 @@ Hidden underground, these enemies emerge when the player is near and start throw
 
 * Basic inventory system for potions and power-ups:
 
-  *Health Potion: Restores health.
+  * Health Potion: Restores health.
 
-  *Defense Potion: Increases defense for a limited time.
+  * Defense Potion: Increases defense for a limited time.
 
-  *Attack Potion: Boosts attack damage for a short duration.
+  * Attack Potion: Boosts attack damage for a short duration.
 
-  *Greater Health Potion: Heals the player and increases max health temporarily.
+  * Greater Health Potion: Heals the player and increases max health temporarily.
 
 ## Technologies Used
 
