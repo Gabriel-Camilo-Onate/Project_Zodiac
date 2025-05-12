@@ -25,7 +25,7 @@ Hidden underground, these enemies emerge when the player is near and start throw
 
 * Unique invulnerability mechanics for each enemy type.
 
-*Real-time physics-based traps and interactive environments:
+* Real-time physics-based traps and interactive environments:
 		
    * Spike traps that activate when the player steps on them.
 
