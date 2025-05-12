@@ -1,0 +1,40 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class buffShootPotion : objectCollisionable
+{
+    [SerializeField] AudioSource _audioSource;
+    [SerializeField] AudioClip _audioClip;
+    [SerializeField] Collider _collider;
+    [SerializeField] GameObject[] _meshes;
+    ItemManager _player;
+    //[SerializeField] int _waitFSeconds = 20;
+    private void Start()
+    {
+        if (_audioSource == null) { _audioSource = GetComponent<AudioSource>(); }
+        _audioSource.clip = _audioClip;
+    }
+    public override void Action(GameObject player)
+    {
+        _player = player.GetComponent<ItemManager>();
+        _collider.enabled = false;
+        for (int i = 0; i < _meshes.Length; i++)
+        {
+            _meshes[i].GetComponent<MeshRenderer>().enabled = false;
+        }
+        _player.ItemCounter(2);
+        StartCoroutine(soundAndDestroy());
+    }
+    //public override void UseAction()
+    //{
+    //    _player.BufferAttack(_waitFSeconds);
+    //    StartCoroutine(soundAndDestroy());
+    //}
+    public IEnumerator soundAndDestroy()
+    {
+        _audioSource.Play();
+        yield return new WaitForSeconds(2);
+        Destroy(gameObject);
+    }
+}
